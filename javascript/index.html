@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dynamic DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Welcome to My Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section One</a></li>
+            <li><a href="#section2">Section Two</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>Section One</h2>
+        <p id="text-to-change">This text will be changed dynamically.</p>
+        <button id="change-text-btn">Change Text</button>
+    </section>
+
+    <section id="section2">
+        <h2>Section Two</h2>
+        <button id="toggle-box-btn">Add/Remove Box</button>
+        <div id="box-container"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
